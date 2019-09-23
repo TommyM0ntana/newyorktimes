@@ -9,6 +9,17 @@ p {
   margin: 0;
 }
 
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-blue {
+  background-color: #6288a5;
+  color: white;
+}
+
 /* navbar */
 nav {
   padding: 0 25px;
@@ -40,13 +51,8 @@ nav img {
   height: 20px;
 }
 
-.button-container button{
+.button-container button {
   margin: 0 5px;
-  padding: 10px 25px;
-  background-color: #6288a5;
-  color: white;
-  border: none;
-  border-radius: 6px;
 }
 
 /* main */
@@ -99,9 +105,11 @@ main p {
 }
 
 .side-content {
+  padding: 0 2rem;
   height: 100%;
   width: 20%;
   float: right;
+  box-sizing: border-box;
 }
 
 .text-content .article-author {
@@ -147,6 +155,46 @@ main p {
 
 .text-content .text-highlight {
   color: #326891;
+}
+
+/* side-content -- sign up */
+.sign-up {
+  margin-top: 10rem;
+}
+
+.sign-up p {
+  padding: 0.5rem 0;
+}
+
+.sign-up p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign-up button {
+  width: 100%;
+}
+
+/* main content -- editor's pics */
+.editor-picks {
+  margin-top: 10rem;
+}
+
+.editor-picks p {
+  padding-bottom: 1rem;
+  border-bottom: solid thin black;
+}
+
+/* side content -- more articles */
+.more-articles {
+  margin-top: 1rem;
+}
+
+.more-articles-img {
+  width: 5rem;
+  height: 5rem;
+  background-size: cover;
+  background-position-x: center;
 }
 
 /* artwork */
