@@ -195,7 +195,17 @@ main p {
   height: 5rem;
   background-size: cover;
   background-position-x: center;
+  float: left;
+
 }
+
+.more-articles a {
+  text-decoration: none;
+  font-size: 12px
+
+}
+
+
 
 /* artwork */
 .artwork {
