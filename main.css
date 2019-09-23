@@ -11,29 +11,42 @@ p {
 
 /* navbar */
 nav {
-  height: 2rem;
-  background-color:white;
+  padding: 0 25px;
+  height: 3rem;
+  width: 100%;
+  box-sizing: border-box;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  padding:;
-
+  position: fixed;
+  
+  background-color:white;
+  border-bottom: solid thin gray;
 }
 
-.nav-icons-container {
-  padding: 10px;
-  height: 10px;
+.nav-icons-container a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 .nav-icons-container i {
-  padding: 0px 1px ;
+  margin-right: 1rem;
 }
 
 nav img {
   width: auto;
-  height: 50px;
- 
+  height: 20px;
+}
+
+.button-container button{
+  margin: 0 5px;
+  padding: 10px 25px;
+  background-color: #6288a5;
+  color: white;
+  border: none;
+  border-radius: 6px;
 }
 
 /* main */
@@ -71,12 +84,7 @@ main p {
   color: gray;
 }
 
-/* main content */
-.main-content {
-  height: 200vh;
-  background-color: aliceblue;
-}
-
+/* main content layout*/
 .main-content section {
   height: 100%;
   width: 80%;
@@ -90,8 +98,13 @@ main p {
   float: right;
 }
 
+.side-content {
+  height: 100%;
+  width: 20%;
+  float: right;
+}
+
 .text-content .article-author {
-  padding: 1rem 0;
   font-weight: bold;
 }
 
@@ -105,25 +118,35 @@ main p {
   justify-content: space-between;
 }
 
-.social-media-container i {
-  margin: 0 1rem;
-}
-
-.icons-container {
-  width: 50%;
+.social-media-container .icons-container {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 .social-media-container .icon-circle {
-  background-color: gray;
+  margin: 0 0.25rem;    
+  width: 2rem;
+  height: 2rem;  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #d4cfcf;
+  border-radius: 50%;
 }
 
-.side-content {
-  height: 100%;
-  width: 20%;
-  float: right;
-  background-color: aqua;
+.social-media-container i {
+  margin: 0 0.5rem;    
+}
+
+/* main content text-container*/
+.text-content p {
+  margin: 1rem 0;
+}
+
+.text-content .text-highlight {
+  color: #326891;
 }
 
 /* artwork */
