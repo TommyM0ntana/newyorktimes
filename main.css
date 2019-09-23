@@ -5,7 +5,16 @@ body {
 
 nav {
   height: 5rem;
-  background-color: red;
+  background-color:white;
+  display: flex;
+}
+
+.icons-container {
+  padding: 20px;
+}
+
+nav img {
+width: 170px;
 }
 
 main {
