@@ -1,8 +1,15 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: georgia,'times new roman',times,serif;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar */
 nav {
   height: 5rem;
   background-color:white;
@@ -17,11 +24,42 @@ nav img {
 width: 170px;
 }
 
+/* main */
 main {
-  height: 110vh;
-  background-color: green;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+main h1 {
+  width: 39rem;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+main img {
+  width: 80%;
+  height: auto;
+}
+
+.hero-description-container {
+  margin-top: 0.5rem;
+  width: 80%;
+}
+
+main p {
+  margin-top: 0.5rem;
+  width: 70%;
+  text-align: left;
+  float: left;
+}
+
+.picture-credits {
+  color: gray;
+}
+
+/* main content */
 .main-content {
   height: 200vh;
   background-color: aliceblue;
@@ -34,10 +72,39 @@ main {
 }
 
 .main-content .text-content {
-  width: 80%;
+  padding: 0 1rem;
+  width: 60%;
   height: 100%;
   float: right;
-  background-color: blueviolet;
+}
+
+.text-content .article-author {
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.text-content .article-author a {
+  color: black;
+}
+
+.social-media-container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-container i {
+  margin: 0 1rem;
+}
+
+.icons-container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-container .icon-circle {
+  background-color: gray;
 }
 
 .side-content {
@@ -47,6 +114,7 @@ main {
   background-color: aqua;
 }
 
+/* artwork */
 .artwork {
   width: 100%;
   height: 100vh;
