@@ -223,6 +223,10 @@ main p {
   box-sizing: border-box;
 }
 
+.artwork_text { 
+  color:gray;
+}
+
 .artwork .theories {
   margin: 1rem 0;
   width: 100%;
