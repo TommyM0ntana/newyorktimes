@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
 }
 
 p {
@@ -114,7 +114,7 @@ main p {
   font-weight: bold;
 }
 
-.text-content .article-author a {
+.article-author a {
   color: black;
 }
 
@@ -167,6 +167,18 @@ main p {
   padding: 0.5rem 0;
 }
 
+.editor-picks p {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  border-bottom: solid thin black;
+}
+
+.theory-text-container p {
+  width: 15.8rem;
+  display: inline-block;
+  font-size: 14px;
+}
+
 .sign-up p:first-child {
   font-weight: bold;
   font-size: 18px;
@@ -179,12 +191,6 @@ main p {
 /* main content -- editor's pics */
 .editor-picks {
   margin-top: 10rem;
-}
-
-.editor-picks p {
-  padding-bottom: 1rem;
-  font-weight: bold;
-  border-bottom: solid thin black;
 }
 
 /* side content -- more articles */
@@ -204,7 +210,7 @@ main p {
 }
 
 .more-articles a {
-  margin-left: 1rem;  
+  margin-left: 1rem;
   flex-basis: 50%;
   text-decoration: none;
   font-size: 12px;
@@ -233,10 +239,4 @@ main p {
   padding-top: 11.5rem;
   display: flex;
   justify-content: space-between;
-}
-
-.theory-text-container p {
-  width: 15.8rem;
-  display: inline-block;
-  font-size: 14px;
 }
