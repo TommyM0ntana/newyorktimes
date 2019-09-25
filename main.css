@@ -276,12 +276,16 @@ main p {
 
 .footer-categories {
   width: 70%;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .footer-categories ul {
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
+  
 }
 
 .footer-categories a {
