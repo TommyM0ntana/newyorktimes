@@ -249,7 +249,7 @@ main p {
 /* Footer */
 .footer {
   margin-top: 2rem;
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 3rem 5rem 3rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -262,6 +262,7 @@ main p {
 }
 
 .footer-logo-container img {
+  margin-left: 40px;
   height: 2.5rem;
   width: auto;
 }
@@ -275,8 +276,6 @@ main p {
 
 .footer-categories {
   width: 70%;
-  height: 10rem;
-  background-color:gray;
 }
 
 .footer-categories ul {
@@ -291,9 +290,51 @@ main p {
 }
 
 .footer-subscribe {
+  padding-left: 1rem;
   width: 30%;
-  height: 10rem;
-  background-color: green;
+  border-left: solid thin grey;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+}
+
+/* subscribe top */
+.subscribe-top p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subscribe-top .icon-container {
+  margin: 6px 0;
+}
+
+.subscribe-top .icon-container i {
+  width: 1.5rem;
+}
+
+.subscribe-top .icon-container a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.subscribe-bottom {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.subscribe-bottom .subscribe-bottom-line {
+  margin: 6px 0;
+  width: 60%;
+  border-bottom: solid thin grey;
+}
+
+.subscribe-bottom a {
+  padding: 6px 0;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
 }
 
 /* Floating Footer */
