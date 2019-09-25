@@ -232,6 +232,7 @@ main p {
   margin: 1rem 0;
   width: 100%;
   height: 39rem;
+  background-image: url('./images/inflation.png');
   background-size: contain;
 }
 
@@ -239,4 +240,8 @@ main p {
   padding-top: 11.5rem;
   display: flex;
   justify-content: space-between;
+}
+
+.theory-text-container span {
+  font-weight: bold;
 }
