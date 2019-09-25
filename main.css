@@ -276,8 +276,22 @@ main p {
 .footer-categories {
   width: 70%;
   height: 10rem;
-  background-color: red;
+  background-color:gray;
+  
 }
+
+.footer-categories ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-categories a {
+  text-decoration: none;
+  color:black;
+}
+
+
 
 .footer-subscribe {
   width: 30%;
