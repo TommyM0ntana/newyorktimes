@@ -9,6 +9,23 @@ p {
   margin: 0;
 }
 
+/* functional classes */
+.font-12px {
+  font-size: 12px
+}
+
+.more-article-bg1 {
+  background-image: url('./images/times.jpg');
+}
+
+.more-article-bg2 {
+  background-image: url('./images/tree.jpeg');
+}
+
+.more-article-bg3 {
+  background-image: url('./images/dog.png');
+}
+
 .btn {
   padding: 10px 25px;
   border: none;
