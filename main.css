@@ -1,0 +1,398 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: georgia, 'times new roman', times, serif;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* functional classes */
+.font-12px {
+  font-size: 12px;
+}
+
+.more-article-bg1 {
+  background-image: url('./images/times.jpg');
+}
+
+.more-article-bg2 {
+  background-image: url('./images/tree.jpeg');
+}
+
+.more-article-bg3 {
+  background-image: url('./images/dog.png');
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-blue {
+  background-color: #6288a5;
+  color: white;
+}
+
+/* navbar */
+nav {
+  padding: 0 25px;
+  height: 3rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  border-bottom: solid thin gray;
+}
+
+.nav-icons-container a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-icons-container i {
+  margin-right: 1rem;
+}
+
+nav img {
+  width: auto;
+  height: 20px;
+}
+
+.button-container button {
+  margin: 0 5px;
+}
+
+/* main */
+main {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  width: 39rem;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+main img {
+  width: 80%;
+  height: auto;
+}
+
+.hero-description-container {
+  margin-top: 0.5rem;
+  width: 80%;
+}
+
+main p {
+  margin-top: 0.5rem;
+  width: 70%;
+  text-align: left;
+  float: left;
+}
+
+.picture-credits {
+  color: gray;
+}
+
+/* main content layout */
+.main-content .main-content-div {
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+}
+
+.main-content .text-content {
+  padding: 0 1rem;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+.side-content {
+  padding: 0 2rem;
+  height: 100%;
+  width: 20%;
+  float: right;
+  box-sizing: border-box;
+}
+
+.text-content .article-author {
+  font-weight: bold;
+}
+
+.article-author a {
+  color: black;
+}
+
+.social-media-container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-container .icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-container .icon-circle {
+  margin: 0 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  border-radius: 50%;
+}
+
+.social-media-container i {
+  margin: 0 0.5rem;
+}
+
+/* main content text-container */
+.text-content p {
+  margin: 1rem 0;
+  font-size: 16px;
+}
+
+.text-content .main-text-highlight {
+  font-weight: bold;
+}
+
+.text-content .text-highlight {
+  color: #326891;
+}
+
+/* side-content -- sign up */
+.sign-up {
+  margin-top: 10rem;
+}
+
+.sign-up p {
+  padding: 0.5rem 0;
+}
+
+.editor-picks p {
+  padding-bottom: 1rem;
+  font-weight: bold;
+  border-bottom: solid thin black;
+}
+
+.theory-text-container p {
+  width: 15.8rem;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.sign-up p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign-up button {
+  width: 100%;
+}
+
+/* main content -- editor's pics */
+.editor-picks {
+  margin-top: 10rem;
+}
+
+/* side content -- more articles */
+.more-articles {
+  margin-top: 0.5rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.more-articles-img {
+  width: 5rem;
+  height: 5rem;
+  background-size: cover;
+  background-position-x: center;
+  float: left;
+}
+
+.more-articles a {
+  margin-left: 1rem;
+  flex-basis: 50%;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+/* artwork */
+.artwork {
+  padding: 0 13rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.artwork_text {
+  color: gray;
+}
+
+.artwork .theories {
+  margin: 1rem 0;
+  width: 100%;
+  height: 39rem;
+  background-image: url('./images/inflation.png');
+  background-size: contain;
+}
+
+.theory-text-container {
+  padding-top: 11.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.theory-text-container span {
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  margin-top: 2rem;
+  padding: 0 3rem 5rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-logo-container {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 3rem;
+  border-top: solid thin grey;
+}
+
+.footer-logo-container img {
+  margin-left: 40px;
+  height: 2.5rem;
+  width: auto;
+}
+
+.footer-logo-container a {
+  padding-top: 1rem;
+  float: right;
+  color: blue;
+  text-decoration: none;
+}
+
+.footer-categories {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-categories ul {
+  padding-right: 1rem;
+  margin-top: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-categories ul li {
+  margin-bottom: 6px;
+}
+
+.footer-categories ul li:first-child {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.footer-categories .main-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-categories a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-subscribe {
+  padding-left: 1rem;
+  width: 30%;
+  border-left: solid thin grey;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+}
+
+/* subscribe top */
+.subscribe-top .subscribe-top-p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subscribe-top .icon-container {
+  margin: 6px 0;
+}
+
+.subscribe-top .icon-container i {
+  width: 1.5rem;
+}
+
+.subscribe-top .icon-container a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.subscribe-bottom {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.subscribe-bottom .subscribe-bottom-line {
+  margin: 6px 0;
+  width: 60%;
+  border-bottom: solid thin grey;
+}
+
+.subscribe-bottom .subscribe-bottom-a {
+  padding: 6px 0;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* Floating Footer */
+.floating-footer {
+  height: 3rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: solid thin black;
+}
+
+.floating-footer:hover {
+  cursor: pointer;
+}
+
+.floating-footer .floating-footer-p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.floating-footer .fa-chevron-up {
+  position: fixed;
+  right: 3rem;
+  bottom: 1rem;
+}
