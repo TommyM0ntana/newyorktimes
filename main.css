@@ -106,7 +106,7 @@ main p {
 }
 
 /* main content layout */
-.main-content section {
+.main-content .main-content-div {
   height: 100%;
   width: 80%;
   display: inline-block;
